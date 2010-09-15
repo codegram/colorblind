@@ -1,6 +1,50 @@
 = colorblind
 
-Description goes here.
+Colorblind is a Rails 3 gem that extends your ActiveSupport logger with trendy colorschemes from the 90's.
+
+You thought 90's were over? Then why are you still using your terminal as if you still had that old 2-color 14-inch 40-kg display?
+
+== Usage
+
+Just use your logger as you would (in your models or controllers, for example, through the logger method) BUT take a look at the spicy syntax:
+
+  logger.debug "I really <blue>think</> that <RED>#{suspicious_object.strange_method}</> is not returning what <magenta>my boss</> would want to."
+  logger.warn "Called a <green>really good</> method which may <GREEN>delete your hard drive</> :)"
+
+And hide your logs so that your magenta boss won't find out!
+
+== Cheatsheet
+
+These are the color codes: basically, downcase for text colors and upcase for background colors!
+
+  <black> text </>
+  <red> text </>
+  <green> text </>
+  <yellow> text </>
+  <blue> text </>
+  <magenta> text </>
+  <cyan> text </>
+  <white> text </>
+
+  <RED> backgrounded text </>
+  <GREEN> backgrounded text </>
+  <YELLOW> backgrounded text </>
+  <BLUE> backgrounded text </>
+  <MAGENtA> backgrounded text </>
+  <CYAN> backgrounded text </>
+  <WHITE> backgrounded text </>
+
+== Install
+
+Just put this in your Gemfile:
+
+  gem "colorblind"
+
+And ta-da!
+
+== TODO
+
+* Add support for bold and underline modifiers
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +58,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Josep M. Bach. See LICENSE for details.
+Copyright (c) 2010 Codegram. See LICENSE for details.
