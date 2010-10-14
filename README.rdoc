@@ -46,6 +46,10 @@ And ta-da!
 
 * Add support for bold and underline modifiers
 
+== Compatibility
+
+* Tested with Ruby 1.8, Ruby 1.9, JRuby 1.5.3 and Rubinius 1.1.
+
 == Note on Patches/Pull Requests
  
 * Fork the project.

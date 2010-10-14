@@ -9,26 +9,27 @@ GEM
       git (>= 1.2.5)
       rake
     rake (0.8.7)
-    rspec (2.0.0.beta.22)
-      rspec-core (= 2.0.0.beta.22)
-      rspec-expectations (= 2.0.0.beta.22)
-      rspec-mocks (= 2.0.0.beta.22)
-    rspec-core (2.0.0.beta.22)
-    rspec-expectations (2.0.0.beta.22)
+    rspec (2.0.0)
+      rspec-core (= 2.0.0)
+      rspec-expectations (= 2.0.0)
+      rspec-mocks (= 2.0.0)
+    rspec-core (2.0.0)
+    rspec-expectations (2.0.0)
       diff-lcs (>= 1.1.2)
-    rspec-mocks (2.0.0.beta.22)
-      rspec-core (= 2.0.0.beta.22)
-      rspec-expectations (= 2.0.0.beta.22)
+    rspec-mocks (2.0.0)
+      rspec-core (= 2.0.0)
+      rspec-expectations (= 2.0.0)
     simplecov (0.3.6)
       simplecov-html (>= 0.3.7)
     simplecov-html (0.3.8)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   activesupport (= 3.0.0)
-  bundler (~> 1.0.0)
-  jeweler (~> 1.5.0.pre3)
-  rspec (>= 2.0.0.beta.22)
+  bundler (= 1.0.2)
+  jeweler (= 1.5.0.pre3)
+  rspec (= 2.0.0)
   simplecov
